@@ -8,3 +8,96 @@ and open the template in the editor.
     Author     : 00140161
 */
 
+#cabecera{
+    font-family: forte;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    
+    
+}
+.slogan
+{
+    font-family: forte;
+    color: gray;
+    font-size: 1.5em;
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    background: #29D9D9;
+    border-radius: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+#menu{
+    text-align: center;
+   
+}
+#pie{
+    background: #29D9D9;
+    text-align: center;
+    font-family:arial;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover
+{
+    color:red;
+    font-size: 25px;
+   
+}
+a:visited {/* profe,no se porque cuando le coloco este estilo me acmbia el anterior*/
+    color:  
+}
+a:active{
+    color:   grey;  
+}
+#cuerpoyparrafo{
+   
+    font-family:arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+form{
+    align-content: center;
+    width: 800px;
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid #000;
+    border-radius: 1em;
+    background: white;
+    
+}
+form div{
+    
+    margin-top: 1em;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+input,textArea{
+    font: 1em arial;
+    width: 200px;
+}
+input:focus, textArea:focus{
+    border-color: red;
+}
+textArea{
+  vertical-align: top;
+}
+h1{
+   text-align: center;
+  
+}
+#fondo{
+   background: #29D9D9;
+}
